@@ -11,7 +11,12 @@ def main():
     nchoice = int(input("Please choose an expense category? Enter a number. "))
     rchoice = categories[nchoice-1]
     
-    
+    if nchoice === 0:
+        print(rchoice)
+    elif nchoice === 1:
+        print(rchoice)
+    else: 
+        "Else condition."
 
 
 
