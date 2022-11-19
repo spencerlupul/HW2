@@ -1,0 +1,5 @@
+categories = ["Groceries", "Rent", "Clothing", "Entertainment", "Dining out", 
+            "Electronics", "Insurance", "Medical expenses", "Taxes", 
+            "Transportation", "Utilities"]
+
+print(categories)

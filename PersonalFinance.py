@@ -3,16 +3,18 @@ category: str = [[],[1, ' - Groceries'],[2, ' - Rent'],[3, ' - Clothing'],
             [7, ' - Insurance'],[8, ' - Medical Expenses'],[9, ' - Taxes'],
             [10, ' - Transportation'],[11, ' - Groceries']]
 
+categories 1 = ["Groceries", "Rent", "Clothing", "Entertainment", "Dining out", "Electronics"]
+
 class main:
     def __init__(self):
         pass
     def run():
-        interface = (
+        print(
             'What function should be performed?', '\n',
             '1 - add expense', '\n',
             '2 - export expenses to Excel', '\n',
             '3 - quit', '\n',)
-        alpha = input(interface)
+        alpha = input(">")
 
 class expense:
     def __init__(self):
