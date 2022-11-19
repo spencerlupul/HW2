@@ -3,6 +3,7 @@ categories = ["Groceries", "Rent", "Clothing", "Entertainment", "Dining out",
             "Transportation", "Utilities"]
 
 
+# comment 
 
 def main():
     print(categories)
