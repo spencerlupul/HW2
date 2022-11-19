@@ -3,12 +3,17 @@ categories = ["Groceries", "Rent", "Clothing", "Entertainment", "Dining out",
             "Transportation", "Utilities"]
 
 
-# comment 
 
 def main():
-    #print(categories)
     for i, val in enumerate(categories):
-        print (i, ",",val)
+        print (i+1, "-",val)
+
+    nchoice = int(input("Please choose an expense category? Enter a number. "))
+    rchoice = categories[nchoice-1]
+    
+    
+
+
 
 if __name__ == "__main__":
     main()
